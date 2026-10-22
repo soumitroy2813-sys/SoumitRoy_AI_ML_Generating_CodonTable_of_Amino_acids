@@ -1,3 +1,9 @@
 {
     "r.lsp.promptToInstall": false
 }
+
+
+pwd
+git --version
+git status
+git rev-parse --show-toplevel
