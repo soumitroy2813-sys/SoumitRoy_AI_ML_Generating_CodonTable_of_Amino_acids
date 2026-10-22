@@ -1,0 +1,236 @@
+[
+  [
+    "T01",
+    "Assignment sample",
+    "ATGGCTTTTTAA",
+    "DNA",
+    "ATG GCT TTT TAA",
+    "MAF*",
+    ""
+  ],
+  [
+    "T02",
+    "TAG stop",
+    "ATGAAAGGGTAG",
+    "DNA",
+    "ATG AAA GGG TAG",
+    "MKG*",
+    ""
+  ],
+  [
+    "T03",
+    "TGA stop",
+    "ATGTGGTGTTGA",
+    "DNA",
+    "ATG TGG TGT TGA",
+    "MWC*",
+    ""
+  ],
+  [
+    "T04",
+    "Longer sequence",
+    "ATGAAAGGGTGGTGTTAA",
+    "DNA",
+    "ATG AAA GGG TGG TGT TAA",
+    "MKGWC*",
+    ""
+  ],
+  [
+    "T05",
+    "No start or stop",
+    "GCTTTTGGG",
+    "DNA",
+    "GCT TTT GGG",
+    "AFG",
+    ""
+  ],
+  [
+    "T06",
+    "Multiple ATG codons",
+    "ATGATGTAA",
+    "DNA",
+    "ATG ATG TAA",
+    "MM*",
+    ""
+  ],
+  [
+    "T07",
+    "One leftover base",
+    "ATGGCTTAAC",
+    "DNA",
+    "ATG GCT TAA",
+    "MA*",
+    "C"
+  ],
+  [
+    "T08",
+    "Two leftover bases",
+    "ATGGCTTAACC",
+    "DNA",
+    "ATG GCT TAA",
+    "MA*",
+    "CC"
+  ],
+  [
+    "T09",
+    "Lowercase",
+    "atgaaagggtag",
+    "DNA",
+    "ATG AAA GGG TAG",
+    "MKG*",
+    ""
+  ],
+  [
+    "T10",
+    "Spaces",
+    "ATG AAA GGG TAG",
+    "DNA",
+    "ATG AAA GGG TAG",
+    "MKG*",
+    ""
+  ],
+  [
+    "T11",
+    "RNA sequence",
+    "AUGAAAGGGUAG",
+    "RNA",
+    "ATG AAA GGG TAG",
+    "MKG*",
+    ""
+  ],
+  [
+    "T12",
+    "Mixed case RNA",
+    "aug gcu uaa",
+    "RNA",
+    "ATG GCT TAA",
+    "MA*",
+    ""
+  ],
+  [
+    "T13",
+    "Short input",
+    "AT",
+    "DNA",
+    "",
+    "",
+    "AT"
+  ],
+  [
+    "T14",
+    "Single nucleotide",
+    "A",
+    "DNA",
+    "",
+    "",
+    "A"
+  ],
+  [
+    "T15",
+    "Only start",
+    "ATG",
+    "DNA",
+    "ATG",
+    "M",
+    ""
+  ],
+  [
+    "T16",
+    "Only stop",
+    "TAA",
+    "DNA",
+    "TAA",
+    "*",
+    ""
+  ],
+  [
+    "T17",
+    "Codon after stop",
+    "ATGTAAGCT",
+    "DNA",
+    "ATG TAA GCT",
+    "M*A",
+    ""
+  ],
+  [
+    "T18",
+    "RNA leftover U",
+    "AUGU",
+    "RNA",
+    "ATG",
+    "M",
+    "T"
+  ],
+  [
+    "T19",
+    "Shared DNA/RNA alphabet",
+    "ACG",
+    "DNA",
+    "ACG",
+    "T",
+    ""
+  ],
+  [
+    "T20",
+    "All three stops",
+    "TAATAGTGA",
+    "DNA",
+    "TAA TAG TGA",
+    "***",
+    ""
+  ],
+  [
+    "T21",
+    "Empty input",
+    "",
+    "error",
+    "The sequence cannot be empty.",
+    "",
+    ""
+  ],
+  [
+    "T22",
+    "Whitespace input",
+    "   ",
+    "error",
+    "The sequence cannot be empty.",
+    "",
+    ""
+  ],
+  [
+    "T23",
+    "Invalid letter",
+    "ATGBCT",
+    "error",
+    "Invalid nucleotide(s): B",
+    "",
+    ""
+  ],
+  [
+    "T24",
+    "Ambiguous nucleotide",
+    "ATGNAA",
+    "error",
+    "Invalid nucleotide(s): N",
+    "",
+    ""
+  ],
+  [
+    "T25",
+    "Numeric input",
+    "ATG123",
+    "error",
+    "Invalid nucleotide(s): 1, 2, 3",
+    "",
+    ""
+  ],
+  [
+    "T26",
+    "Mixed T and U",
+    "ATUG",
+    "error",
+    "Enter DNA or RNA, not a mixture containing both T and U.",
+    "",
+    ""
+  ]
+]
