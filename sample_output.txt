@@ -1,6 +1,4 @@
-
-STANDARD DNA CODON TABLE
---------------------------------
+STANDARD DNA CODON TABLE (64 CODONS)
 Codon   Amino acid
 --------------------------------
 AAA     Lysine
@@ -69,18 +67,15 @@ TTG     Leucine
 TTT     Phenylalanine
 
 Enter a DNA or RNA sequence: 
+SEQUENCE ANALYSIS
 Input type: DNA
-Clean sequence: ATGGCTTTTTAA
-
-TRANSLATION
------------------------------------
-Position  Codon     Amino acid
------------------------------------
-1         ATG       Methionine (Start)
-2         GCT       Alanine
-3         TTT       Phenylalanine
-4         TAA       Stop
-
+Cleaned sequence: ATGGCTTTTTAA
+Position  Codon   Amino acid
+------------------------------------------------
+1         ATG     Methionine (Start)
+2         GCT     Alanine
+3         TTT     Phenylalanine
+4         TAA     Stop
 Amino acid sequence: Methionine - Alanine - Phenylalanine - Stop
 Start codon position(s): [1]
 Stop codon(s): [(4, 'TAA')]

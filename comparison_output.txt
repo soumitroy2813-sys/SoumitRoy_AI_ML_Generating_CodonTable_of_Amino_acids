@@ -1,0 +1,10 @@
+Biopython version: 1.88
+Reference: standard DNA table 1
+Dictionary entries: 64
+Missing codons: []
+Unexpected keys: []
+Matching standard assignments: 64/64
+Reference starts: ['TTG', 'CTG', 'ATG']
+Start-site policy is separate from amino-acid mapping.
+Overall: PASS
+Saved: comparison_results.csv
