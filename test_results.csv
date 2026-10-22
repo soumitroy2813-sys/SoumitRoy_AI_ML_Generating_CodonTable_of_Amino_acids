@@ -1,0 +1,27 @@
+test_id,purpose,input,input_type,codons,translation,one_letter,remainder,start_positions,stop_positions,status
+T01,Assignment sample,ATGGCTTTTTAA,DNA,ATG GCT TTT TAA,Methionine - Alanine - Phenylalanine - Stop,MAF*,,[1],[4],PASS
+T02,TAG stop,ATGAAAGGGTAG,DNA,ATG AAA GGG TAG,Methionine - Lysine - Glycine - Stop,MKG*,,[1],[4],PASS
+T03,TGA stop,ATGTGGTGTTGA,DNA,ATG TGG TGT TGA,Methionine - Tryptophan - Cysteine - Stop,MWC*,,[1],[4],PASS
+T04,Longer sequence,ATGAAAGGGTGGTGTTAA,DNA,ATG AAA GGG TGG TGT TAA,Methionine - Lysine - Glycine - Tryptophan - Cysteine - Stop,MKGWC*,,[1],[6],PASS
+T05,No start or stop,GCTTTTGGG,DNA,GCT TTT GGG,Alanine - Phenylalanine - Glycine,AFG,,[],[],PASS
+T06,Multiple ATG codons,ATGATGTAA,DNA,ATG ATG TAA,Methionine - Methionine - Stop,MM*,,"[1, 2]",[3],PASS
+T07,One leftover base,ATGGCTTAAC,DNA,ATG GCT TAA,Methionine - Alanine - Stop,MA*,C,[1],[3],PASS
+T08,Two leftover bases,ATGGCTTAACC,DNA,ATG GCT TAA,Methionine - Alanine - Stop,MA*,CC,[1],[3],PASS
+T09,Lowercase,atgaaagggtag,DNA,ATG AAA GGG TAG,Methionine - Lysine - Glycine - Stop,MKG*,,[1],[4],PASS
+T10,Spaces,ATG AAA GGG TAG,DNA,ATG AAA GGG TAG,Methionine - Lysine - Glycine - Stop,MKG*,,[1],[4],PASS
+T11,RNA sequence,AUGAAAGGGUAG,RNA,AUG AAA GGG UAG,Methionine - Lysine - Glycine - Stop,MKG*,,[1],[4],PASS
+T12,Mixed case RNA,aug gcu uaa,RNA,AUG GCU UAA,Methionine - Alanine - Stop,MA*,,[1],[3],PASS
+T13,Short input,AT,DNA,,No complete codon,,AT,[],[],PASS
+T14,Single nucleotide,A,DNA,,No complete codon,,A,[],[],PASS
+T15,Only start,ATG,DNA,ATG,Methionine,M,,[1],[],PASS
+T16,Only stop,TAA,DNA,TAA,Stop,*,,[],[1],PASS
+T17,Codon after stop,ATGTAAGCT,DNA,ATG TAA GCT,Methionine - Stop - Alanine,M*A,,[1],[2],PASS
+T18,RNA leftover U,AUGU,RNA,AUG,Methionine,M,U,[1],[],PASS
+T19,Shared DNA/RNA alphabet,ACG,DNA,ACG,Threonine,T,,[],[],PASS
+T20,All three stops,TAATAGTGA,DNA,TAA TAG TGA,Stop - Stop - Stop,***,,[],"[1, 2, 3]",PASS
+T21,Empty input,,Rejected,,Error: The sequence cannot be empty.,,,[],[],PASS
+T22,Whitespace input,   ,Rejected,,Error: The sequence cannot be empty.,,,[],[],PASS
+T23,Invalid letter,ATGBCT,Rejected,,Error: Invalid nucleotide(s): B,,,[],[],PASS
+T24,Ambiguous nucleotide,ATGNAA,Rejected,,Error: Invalid nucleotide(s): N,,,[],[],PASS
+T25,Numeric input,ATG123,Rejected,,"Error: Invalid nucleotide(s): 1, 2, 3",,,[],[],PASS
+T26,Mixed T and U,ATUG,Rejected,,"Error: Enter DNA or RNA, not a mixture containing both T and U.",,,[],[],PASS
