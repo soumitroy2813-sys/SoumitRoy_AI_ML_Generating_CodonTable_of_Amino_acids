@@ -1,0 +1,34 @@
+test_complete_dictionary (test_codon_table_generator.CodonTableTests.test_complete_dictionary) ... ok
+test_dna_rna_equivalence (test_codon_table_generator.CodonTableTests.test_dna_rna_equivalence) ... ok
+test_start_stop_positions (test_codon_table_generator.CodonTableTests.test_start_stop_positions) ... ok
+test_t01 (test_codon_table_generator.CodonTableTests.test_t01) ... ok
+test_t02 (test_codon_table_generator.CodonTableTests.test_t02) ... ok
+test_t03 (test_codon_table_generator.CodonTableTests.test_t03) ... ok
+test_t04 (test_codon_table_generator.CodonTableTests.test_t04) ... ok
+test_t05 (test_codon_table_generator.CodonTableTests.test_t05) ... ok
+test_t06 (test_codon_table_generator.CodonTableTests.test_t06) ... ok
+test_t07 (test_codon_table_generator.CodonTableTests.test_t07) ... ok
+test_t08 (test_codon_table_generator.CodonTableTests.test_t08) ... ok
+test_t09 (test_codon_table_generator.CodonTableTests.test_t09) ... ok
+test_t10 (test_codon_table_generator.CodonTableTests.test_t10) ... ok
+test_t11 (test_codon_table_generator.CodonTableTests.test_t11) ... ok
+test_t12 (test_codon_table_generator.CodonTableTests.test_t12) ... ok
+test_t13 (test_codon_table_generator.CodonTableTests.test_t13) ... ok
+test_t14 (test_codon_table_generator.CodonTableTests.test_t14) ... ok
+test_t15 (test_codon_table_generator.CodonTableTests.test_t15) ... ok
+test_t16 (test_codon_table_generator.CodonTableTests.test_t16) ... ok
+test_t17 (test_codon_table_generator.CodonTableTests.test_t17) ... ok
+test_t18 (test_codon_table_generator.CodonTableTests.test_t18) ... ok
+test_t19 (test_codon_table_generator.CodonTableTests.test_t19) ... ok
+test_t20 (test_codon_table_generator.CodonTableTests.test_t20) ... ok
+test_t21 (test_codon_table_generator.CodonTableTests.test_t21) ... ok
+test_t22 (test_codon_table_generator.CodonTableTests.test_t22) ... ok
+test_t23 (test_codon_table_generator.CodonTableTests.test_t23) ... ok
+test_t24 (test_codon_table_generator.CodonTableTests.test_t24) ... ok
+test_t25 (test_codon_table_generator.CodonTableTests.test_t25) ... ok
+test_t26 (test_codon_table_generator.CodonTableTests.test_t26) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.001s
+
+OK
