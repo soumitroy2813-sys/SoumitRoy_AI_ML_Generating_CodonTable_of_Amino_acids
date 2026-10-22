@@ -1,0 +1,87 @@
+
+STANDARD DNA CODON TABLE
+--------------------------------
+Codon   Amino acid
+--------------------------------
+AAA     Lysine
+AAC     Asparagine
+AAG     Lysine
+AAT     Asparagine
+ACA     Threonine
+ACC     Threonine
+ACG     Threonine
+ACT     Threonine
+AGA     Arginine
+AGC     Serine
+AGG     Arginine
+AGT     Serine
+ATA     Isoleucine
+ATC     Isoleucine
+ATG     Methionine
+ATT     Isoleucine
+CAA     Glutamine
+CAC     Histidine
+CAG     Glutamine
+CAT     Histidine
+CCA     Proline
+CCC     Proline
+CCG     Proline
+CCT     Proline
+CGA     Arginine
+CGC     Arginine
+CGG     Arginine
+CGT     Arginine
+CTA     Leucine
+CTC     Leucine
+CTG     Leucine
+CTT     Leucine
+GAA     Glutamic acid
+GAC     Aspartic acid
+GAG     Glutamic acid
+GAT     Aspartic acid
+GCA     Alanine
+GCC     Alanine
+GCG     Alanine
+GCT     Alanine
+GGA     Glycine
+GGC     Glycine
+GGG     Glycine
+GGT     Glycine
+GTA     Valine
+GTC     Valine
+GTG     Valine
+GTT     Valine
+TAA     Stop
+TAC     Tyrosine
+TAG     Stop
+TAT     Tyrosine
+TCA     Serine
+TCC     Serine
+TCG     Serine
+TCT     Serine
+TGA     Stop
+TGC     Cysteine
+TGG     Tryptophan
+TGT     Cysteine
+TTA     Leucine
+TTC     Phenylalanine
+TTG     Leucine
+TTT     Phenylalanine
+
+Enter a DNA or RNA sequence: 
+Input type: DNA
+Clean sequence: ATGGCTTTTTAA
+
+TRANSLATION
+-----------------------------------
+Position  Codon     Amino acid
+-----------------------------------
+1         ATG       Methionine (Start)
+2         GCT       Alanine
+3         TTT       Phenylalanine
+4         TAA       Stop
+
+Amino acid sequence: Methionine - Alanine - Phenylalanine - Stop
+Start codon position(s): [1]
+Stop codon(s): [(4, 'TAA')]
+Incomplete codon: None
