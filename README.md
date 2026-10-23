@@ -134,7 +134,7 @@ The complete console output includes the 64-row reference table before these res
 
 ## Test results
 
-The following selected records illustrate the executed behavior. Here `*` represents a stop label and single letters represent amino-acid assignments.[^2]
+The following selected records illustrate the executed behavior. Here `*` represents a stop label and single letters represent amino-acid assignments.
 
 | Input | Translation or response | Remainder |
 |---|---|---|
@@ -163,7 +163,7 @@ The full report and CSV include all 26 cases and pass/fail outcomes.
 
 ## GitHub comparison
 
-Biotite provides a reusable `CodonTable` class with codon mappings, configurable starts, and NCBI table loading. Python Codon Tables provides organism-specific codon-usage data rather than a simple amino-acid translation dictionary.[^6][^7][^8]
+Biotite provides a reusable `CodonTable` class with codon mappings, configurable starts, and NCBI table loading. Python Codon Tables provides organism-specific codon-usage data rather than a simple amino-acid translation dictionary.
 
 | Dimension | Project implementation | Biotite | Python Codon Tables |
 |---|---|---|---|
@@ -198,9 +198,9 @@ For the previously supplied Mac paths:
 
 The demonstrated earlier failure was caused by a bare `codon_table_generator` identifier on line 1. A filename does not define that Python variable; remove the stray line or make it a comment. Python raises `NameError` when an unqualified name is not found.
 
-## GitHub submission
+## GitHub documents configuring a remote and pushing the branch to upload locally hosted code.
 
-Create an empty repository on GitHub, then stage and commit the project files locally. GitHub documents configuring a remote and pushing the branch to upload locally hosted code.
+Create an empty repository on GitHub, then stage and commit the project files locally. 
 
 ```bash
 git init
