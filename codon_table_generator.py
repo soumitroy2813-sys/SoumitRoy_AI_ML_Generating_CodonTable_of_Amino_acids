@@ -1,6 +1,6 @@
 """Display the standard codon table and annotate a DNA/RNA sequence.
 
-Educational policy: frame 1 only; flag ATG; map all codons after stop labels.
+Frame 1 only; flag ATG; map all codons after stop labels.
 The input must be a coding-strand DNA or RNA sequence written 5' to 3'.
 """
 
