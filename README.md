@@ -233,10 +233,6 @@ Future extensions could add explicit input-type selection, alternate reading fra
 
 For an input of length n, the design performs input-length-dependent cleaning, validation, splitting, and mapping passes. With its fixed 64-entry table, ordinary dictionary lookup gives linear overall scaling and linear stored-sequence/output space. This is an algorithmic assessment, not a measured performance benchmark.
 
-## Deliverables
-
-The downloadable report is provided in PDF and editable Word formats with the complete source-code appendix and full test matrix. The project archive contains the runnable Python script, 29-test suite, README, ignore rules, sample output, input-test CSV, codon-verification CSV, and execution records. GitHub publication is documented as a remaining user action rather than reported as completed.
-
 ---
 
 ## References
