@@ -50,7 +50,7 @@ The sequence is cleaned using:
 sequence = "".join(raw_sequence.split()).upper()
 ```
 
-Whitespace is removed and lowercase letters become uppercase. The relevant normalization operations are documented Python string methods.[^5]
+Whitespace is removed and lowercase letters become uppercase. The relevant normalization operations are documented Python string methods.
 
 Validation proceeds in this order:
 
