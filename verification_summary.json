@@ -1,21 +1,19 @@
 {
-  "python_version": "3.12.8",
-  "test_cases": 26,
-  "passed": 26,
-  "codons": 64,
-  "NCBI_matches": 64,
-  "Biotite_matches": 64,
-  "stop_codons": [
-    "TAA",
-    "TAG",
-    "TGA"
-  ],
-  "amino_acid_names": 20,
-  "sense_codons": 61,
-  "command_line_sample": "PASS",
-  "unit_tests_run": 29,
+  "date": "2026-10-22",
+  "python": "3.12.8",
+  "input_cases": 26,
+  "input_cases_passed": 26,
+  "unit_tests": 29,
   "unit_tests_passed": 29,
-  "scope": "Bundled implementation, not the user local copy",
-  "NCBI_URL": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter",
-  "Biotite_data_URL": "https://raw.githubusercontent.com/biotite-dev/biotite/main/src/biotite/sequence/codon_tables.txt"
+  "ncbi_codons_checked": 64,
+  "ncbi_codons_matched": 64,
+  "biopython_version": "1.88",
+  "biopython_codons_matched": 64,
+  "main_script_comments": 15,
+  "user_local_copy_tested": false,
+  "github_published": false,
+  "git_commits_created_for_user": 0,
+  "interactive_cases": 24,
+  "interactive_cases_passed": 24,
+  "multiline_function_only_cases": 2
 }
