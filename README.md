@@ -38,7 +38,7 @@ DNA input is assumed to represent the coding strand written 5′ to 3′. The pr
 
 ### Dictionary representation
 
-Each DNA triplet is a unique dictionary key, and the value is a full amino-acid name or `Stop`. For example, `CODON_TABLE["ATG"]` gives `"Methionine"`. Dictionaries support retrieval by keys, while sets support membership and alphabet checks.[^4]
+Each DNA triplet is a unique dictionary key, and the value is a full amino-acid name or `Stop`. For example, `CODON_TABLE["ATG"]` gives `"Methionine"`. Dictionaries support retrieval by keys, while sets support membership and alphabet checks.
 
 The full table is displayed alphabetically before the input prompt. The program does not infer the genetic code from the entered sequence; it uses an explicit reference mapping.
 
