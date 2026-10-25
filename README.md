@@ -2,8 +2,7 @@
 
 **Academic project report
 Name : Soumit Roy
-Date: 30 October 2026
-**
+Date: 30 October 2026**
 
 ## Abstract
 
