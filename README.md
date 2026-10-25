@@ -190,13 +190,6 @@ Enter the nucleotide sequence when prompted. Run the command again for each new 
 python3 -m unittest -v
 ```
 
-For the previously supplied Mac paths:
-
-```bash
-/Users/soumitroy/SR_AI_ML/Python_AI_ML_venv/bin/python /Users/soumitroy/SR_AI_ML/codon_table_generator.py
-```
-
-The demonstrated earlier failure was caused by a bare `codon_table_generator` identifier on line 1. A filename does not define that Python variable; remove the stray line or make it a comment. Python raises `NameError` when an unqualified name is not found.
 
 ## GitHub documents configuring a remote and pushing the branch to upload locally hosted code.
 
