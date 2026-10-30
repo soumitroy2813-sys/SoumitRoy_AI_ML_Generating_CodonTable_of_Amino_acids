@@ -1,7 +1,7 @@
 # Development of a Codon Table Generator Using Python
 
-**Academic project report
-Name : Soumit Roy
+**Academic project report**
+**Name : Soumit Roy
 Date: 30 October 2026**
 
 ## Abstract
